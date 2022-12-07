@@ -1,0 +1,108 @@
+/*Comic Sans MS*/
+*{
+
+
+}
+
+/*body{*/
+/*    background-image: linear-gradient(*/
+/*            to bottom,*/
+/*            white 0%,*/
+/*            pink 50%,*/
+/*            pink 50%,*/
+/*            white 100%*/
+/*    );*/
+/*    height: 100vh;*/
+/*}*/
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    /*background: linear-gradient(*/
+    /*        to top,*/
+    /*        white 0%,*/
+    /*        white 50%,*/
+    /*        #ffffff 50%,*/
+    /*        #ffffff 100%*/
+    /*);*/
+
+
+}
+
+#cakes{
+    filter: saturate(1.5);
+}
+
+
+.box{
+    background-color: lightblue;
+    border: 1px solid;
+    min-height:50px;
+    font-size: 2rem;
+}
+
+
+.navbar-nav > li{
+
+    margin-left:-25px;
+    margin-right:-25px;
+    padding-left: 60px;
+    padding-right:50px ;
+
+}
+
+
+
+
+.navbar-brand.mb-0.h1{
+    padding-left: 15px;
+
+}
+
+
+
+
+@media screen and (max-width:1366px) {
+    #cakes{
+
+        width:500px;
+        height:400px;
+
+    }
+
+    h6{
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+
+    h5{
+        font-size: 15px;
+    }
+
+    nav{
+        margin-top: -20px;
+
+    }
+
+    #contact-1{
+        font-size:10px ;
+    }
+
+    #contact-2{
+        font-size:10px ;
+    }
+
+    #contact-3{
+        font-size:10px ;
+    }
+
+
+
+
+}
+
+
+
